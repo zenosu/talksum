@@ -24,7 +24,8 @@ classifiers = [
 dependencies = [
   'transformers',
   'torch',
-  'datasets'
+  'datasets',
+  'sounddevice', # Added sounddevice to dependencies
 ]
 
 [project.urls]
