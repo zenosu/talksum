@@ -1,4 +1,8 @@
-Setting up a Python project to implement the process described in the instructions can be done in several steps. Here is a guide to creating such a project using Hatch, which is a modern, extensible Python project manager that follows best practices. Ensure you have Python installed on your system before you proceed.
+## TalkSum
+
+Setting up a Python project to implement the process described in the instructions can be done in several steps. 
+Here is a guide to creating such a project using Hatch, which is a modern, extensible Python project manager that follows best practices. Ensure you have Python installed on your system before you proceed.
+
 Step 1: Install Hatch
 Install Hatch via pip if you haven’t already:
 pip install hatch

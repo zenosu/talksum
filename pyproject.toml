@@ -7,23 +7,23 @@ name = "talksum"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = "3.8"
 license = "MIT"
 keywords = []
 authors = [
-  { name = "Zeno Su", email = "zzzz" },
+  { name = "Zeno Su", email = "zzzz@gmail.com" },
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
   'transformers',
-  'torch',
+#  "torch",
   'datasets',
   'sounddevice', # Added sounddevice to dependencies
 ]
@@ -54,7 +54,7 @@ cov = [
 ]
 
 [[tool.hatch.envs.all.matrix]]
-python = [ "3.11", "3.12"]
+python = [ "3.8", "3.9"]
 
 [tool.hatch.envs.types]
 dependencies = [
