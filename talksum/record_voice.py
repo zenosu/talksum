@@ -1,7 +1,9 @@
-import sounddevice as sd
-import wave
 import tempfile
+import wave
+
 import numpy as np
+import sounddevice as sd
+
 
 def record_audio(duration: int = 5, sample_rate: int = 44100, channels: int = 2) -> np.ndarray:
     print(f"Recording for {duration} seconds...")

@@ -1,4 +1,4 @@
-from transformers import pipeline, Wav2Vec2ForCTC, Wav2Vec2Tokenizer
+from transformers import Wav2Vec2ForCTC, Wav2Vec2Tokenizer, pipeline
 
 # Load the pre-trained model and tokenizer
 tokenizer = Wav2Vec2Tokenizer.from_pretrained("facebook/wav2vec2-base-960h")
